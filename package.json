@@ -1,0 +1,21 @@
+{
+  "name": "css3-docs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "register:components": "vitepress-rc"
+  },
+  "author": "wangqinquan",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^0.22.4",
+    "vitepress-theme-demoblock": "^1.4.2"
+  },
+  "dependencies": {
+    "@types/node": "^18.7.14"
+  }
+}
